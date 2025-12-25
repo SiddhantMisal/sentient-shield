@@ -1,0 +1,26 @@
+<Sysmon schemaversion="4.90">
+  <EventFiltering>
+
+    <!-- Process Creation -->
+    <ProcessCreate onmatch="include" />
+
+    <!-- Network Connections -->
+    <NetworkConnect onmatch="include" />
+
+    <!-- File Creation -->
+    <FileCreate onmatch="include" />
+
+    <!-- Registry Changes -->
+    <RegistryEvent onmatch="include" />
+
+    <!-- Image Loads -->
+    <ImageLoad onmatch="include" />
+
+    <!-- Driver Loads -->
+    <DriverLoad onmatch="include" />
+
+    <!-- DNS Queries -->
+    <DnsQuery onmatch="include" />
+
+  </EventFiltering>
+</Sysmon>

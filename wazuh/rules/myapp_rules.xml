@@ -1,0 +1,8 @@
+<group name="myapp">
+
+  <rule id="100901" level="8">
+    <match>ERROR</match>
+    <description>MyApp error log detected<>
+  </rule>
+
+</group>

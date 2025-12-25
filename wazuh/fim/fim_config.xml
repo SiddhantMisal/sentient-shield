@@ -1,0 +1,10 @@
+<syscheck>
+    <frequency>60</frequency>
+    <scan_on_start>yes</scan_on_start>
+
+    <directories check_all="yes">/etc</directories>
+    <directories check_all="yes">/var/www</directories>
+    <ignore>/etc/mtab</ignore>
+    <ignore>/etc/hosts.deny</ignore>
+  </syscheck>
+
