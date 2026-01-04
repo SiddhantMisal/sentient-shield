@@ -213,3 +213,11 @@ report/Sentient_Shield_Report.pdf
 
 Detailed documentation available at:
 report/Sentient_Shield_Report_week3.pdf
+
+## Week 4 – Threat Simulation (Ransomware)
+
+In this week, we simulated a ransomware attack scenario using Atomic Red Team focusing on MITRE ATT&CK technique T1490 (Inhibit System Recovery).
+The attack was executed on a Windows endpoint with Sysmon enabled to generate detailed telemetry.
+All endpoint logs were collected by the Wazuh agent, correlated by the Wazuh Manager, and visualized in Kibana/OpenSearch.
+Alerts were mapped across the Kill Chain stages from execution to impact.
+This exercise validates detection visibility, MITRE mapping, and SOC alert investigation workflows.
