@@ -1,0 +1,29 @@
+{"timestamp":"2026-01-03T22:04:00.779+0530","rule":{"level":12,"description":"Atomic Red Team: S
+hadow Volume Copies deletion detected (T1490)","id":"100200","mitre":{"id":["T1490"],"tactic":["
+Impact"],"technique": ["Inhibit System Recovery"]},"firedtimes":2,"mail":true,"groups": ["custom_r
+ules","localwindows","impact","ransomware"]},"agent":{"id":"004","name":"WIN-TAHL77SR7PP","ip":"
+192.168.48.130"},"manager":{"name":"manager-virtual-machine"},"id":"1767458040. 333942","full_log
+":"{\"win\":{\"system\":{\"providerName\":\"VSS\",\"eventID\":\"13\",\"version\":\"o\",\"level\"
+: \"2\",\"task\":\"0\",\"opcode\":\"0\",\"keywords\":\"0x80000000000000\",\"systemTime\":\"2026-0
+1-03T16:34:00.4127706Z\",\"eventRecordID\":\"640\",\"processID\":\"o\",\"threadID\":\"o\",\"chan
+nel\":\"Application\",\"computer\":\"WIN-TAHL77SR7PP\",\"severityValue\":\"ERROR\", \"message\":\
+"\\\"Volume Shadow Copy Service information: The COM Server with CLSID {e579ab5f-1cc4-44b4-bed9-
+de0991ff0623} and name Coordinator cannot be started. [0x80070005, Access is dented. \\rln] 11"
+\"},\"eventdata\":{\"binary\":\"2D20436F64653A2041444D50524F434330303030313733372D2043616C6C3A20
+41444D50524F434330303030313731322D205049443A202030303030343236302D205449443A20203030303033313638
+2D20434D443A202076737361646D696E2E657865202064656C65746520736861646F7773202F616C6C202F7175696574
+2D20557365723A204E616D653A2057494E2D5441484C373753523750505C6D646B6169662C205349443A532D312D352D
+32312D313936323530393439362D323830333231393038352D333530383639303632392D31303030\", \"data\":\"{e
+579ab5f-1cc4-44b4-bed9-de0991ff0623}, Coordinator, 0x80070005, Access is denied. \"}}}","decoder"
+: {"name":"windows_eventchannel"},"data": {"win":{"system":{"providerName":"VSS","eventID":"13","v
+ersion":"0","level":"2","task":"0","opcode":"0","keywords":"0x80000000000000","systemTime":"2026
+01-03T16:34:00.4127706Z","eventRecordID":"640","processID":"0","threadID":"O","channel":"Applic
+ation","computer":"WIN-TAHL77SR7PP","severityValue":"ERROR","message":"\"Volume Shadow Copy Serv
+ice information: The COM Server with CLSID {e579ab5f-1cc4-44b4-bed9-de0991ff0623} and name Coord
+inator cannot be started. [0x80070005, Access is denied. \r\n] \""}, "eventdata": {"binary":"2D2043
+6F64653A2041444D50524F434330303030313733372D2043616C6C3A2041444D50524F434330303030313731322D2050
+49443A202030303030343236302D205449443A202030303030333136382D20434D443A202076737361646D696E2E6578
+65202064656C65746520736861646F7773202F616C6C202F71756965742D20557365723A204E616D653A2057494E2D54
+41484C373753523750505C6D646B6169662C205349443A532D312D352D32312D313936323530393439362D3238303332
+31393038352D333530383639303632392D31303030", "data":"{e579ab5f-1cc4-44b4-bed9-de0991ff0623}, Coor
+dinator. 0x80070005. Access is denied."}}}. "location": "EventChannel"}

@@ -1,0 +1,8 @@
+PS C:\Windows\system32> Install-AtomicRedTeam -InstallPath C:\AtomicRedTeam -GetAtomics -Force
+
+Installation of Invoke-AtomicRedTeam is complete. You can now use the Invoke-AtomicTest function
+See Wiki at https://github. com/redcanaryco/invoke-atomicredteam/wiki for complete details
+
+PS C:\Windows\system32> Test-Path C:\AtomicRedTeam\atomics
+
+True

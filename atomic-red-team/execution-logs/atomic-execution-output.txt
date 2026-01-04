@@ -1,0 +1,27 @@
+PS C:\Windows\system32> Invoke-AtomicTest T1490
+
+PathToAtomicsFolder = C:\AtomicRedTeam\atomics
+
+Executing test: T1490-1 Windows - Delete Volume Shadow Copies
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+No items found that satisfy the query.
+Exit code: 1
+Done executing test: T1490-1 Windows - Delete Volume Shadow Copies
+Executing test: T1490-2 Windows - Delete Volume Shadow Copies via WMI
+No Instance(s) Available.
+Exit code: 0
+Done executing test: T1490-2 Windows - Delete Volume Shadow Copies via WMI
+Executing test: T1490-3 Windows - wbadmin Delete Windows Backup Catalog
+Process Timed out after 120 seconds, use '-TimeoutSeconds' to specify a different timeout
+Exit code: -1
+Done executing test: T1490-3 Windows - wbadmin Delete Windows Backup Catalog
+Executing test: T1490-4 Windows - Disable Windows Recovery Console Repair
+The operation completed successfully.
+The operation completed successfully.
+Exit code: 0
+Done executing test: T1490-4 Windows - Disable Windows Recovery Console Repair
+Executing test: T1490-5 Windows - Delete Volume Shadow Copies via WMI with PowerShell
+Exit code: 0
+Done executing test: T1490-5 Windows - Delete Volume Shadow Copies via WMI with PowerShell
+Executing test: T1490-6 Windows - Delete Backup Files
