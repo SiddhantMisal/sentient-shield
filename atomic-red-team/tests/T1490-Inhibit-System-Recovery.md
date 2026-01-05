@@ -1,4 +1,4 @@
-Simulate Ransomware Behavior (T1490)
+Simulate Ransomware Behaviour (T1490)
 T1490 – Inhibit System Recovery
 Ransomware deletes Shadow Copies to prevent recovery.
 Run Atomic Test for T1490:
