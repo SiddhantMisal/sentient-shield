@@ -1,2 +1,2 @@
-Commands used to stop test:
+Commands used to stop the test : 
 Remove-Item -Recurse -Force C:\AtomicRedTeam
